@@ -1,0 +1,128 @@
+{
+  "about": {
+    "name": "Mukesh Das",
+    "title": "AI/ML Engineer",
+    "taglines": ["AI/ML Engineer", "LLM Builder", "FastAPI Developer", "Final Year CS Student"],
+    "bio": "Final year Computer Engineering student at Pune, Maharashtra, deeply passionate about building intelligent systems. Currently architecting a FastAPI-powered LLM backend using Mistral, while simultaneously building a custom LLM from scratch to understand the internals. My goal: leverage GPU-scale infrastructure to build production-grade, goal-oriented AI systems.",
+    "location": "Pune, Maharashtra, India",
+    "email": "mukeshkdas03@gamil.com",
+    "github": "https://github.com/Mukeshdas303",
+    "linkedin": "https://www.linkedin.com/in/mukeshkdas303/",
+    "stats": [
+      {"label": "Years Coding", "value": "3+"},
+      {"label": "AI Projects", "value": "5+"},
+      {"label": "Technologies", "value": "20+"},
+      {"label": "Graduation", "value": "2026"}
+    ]
+  },
+  "skills": {
+    "ai_ml": [
+      {"name": "PyTorch / TensorFlow", "level": 85},
+      {"name": "LLM Fine-tuning", "level": 78},
+      {"name": "Transformer Architecture", "level": 80},
+      {"name": "NLP / Tokenization", "level": 82},
+      {"name": "Mistral / LLaMA", "level": 88}
+    ],
+    "backend": [
+      {"name": "FastAPI / Python", "level": 92},
+      {"name": "REST API Design", "level": 88},
+      {"name": "SQLite / PostgreSQL", "level": 75},
+      {"name": "Docker", "level": 70},
+      {"name": "Pydantic / Uvicorn", "level": 85}
+    ],
+    "tools": ["Python", "Git", "Linux", "Jupyter","FAISS", "NumPy", "Pandas", "Matplotlib", "Scikit-learn"]
+  },
+  "projects": [
+    {
+      "title": "FastAPI + Mistral LLM Backend",
+      "description": "Production-grade REST API backend integrating Mistral LLM with FastAPI. Features streaming responses, context management, and a modular router architecture. Foundation for a scalable AI product.",
+      "tags": ["FastAPI", "Mistral", "Python", "LLM", "REST API"],
+      "color": "#00d4ff",
+      "icon": "🤖",
+      "status": "In Progress",
+      "github": "#"
+    },
+    {
+      "title": "Custom LLM from Scratch",
+      "description": "Building a transformer-based language model from first principles using PyTorch — custom tokenizer, multi-head attention, positional encoding, and training pipeline. Pure learning project to deeply understand LLM internals.",
+      "tags": ["PyTorch", "Transformers", "NLP", "CUDA", "Python"],
+      "color": "#8b5cf6",
+      "icon": "🧠",
+      "status": "In Progress",
+      "github": "#"
+    },
+    {
+      "title": "Engineering Math AI Solver",
+      "description": "An AI-powered solver for Engineering Mathematics III problems (S.E. CS/IT/AI&ML curriculum). Uses symbolic computation and LLM explanation to walk through complex differential equations and transforms step by step.",
+      "tags": ["Python", "SymPy", "LLM", "Math", "Education"],
+      "color": "#10b981",
+      "icon": "📐",
+      "status": "Completed",
+      "github": "#"
+    },
+    {
+      "title": "RAG Pipeline System",
+      "description": "Retrieval-Augmented Generation system that ingests PDFs and engineering textbooks, chunks them semantically, embeds with sentence-transformers, stores in FAISS, and answers questions with Mistral.",
+      "tags": ["FAISS", "LangChain", "Mistral", "FAISS", "Embeddings"],
+      "color": "#f59e0b",
+      "icon": "📚",
+      "status": "Completed",
+      "github": "#"
+    },
+    {
+      "title": "AI Portfolio (This Site)",
+      "description": "Fully animated portfolio powered by FastAPI backend, Three.js particle system, GSAP scroll animations, and a custom UI. Dynamic data served from API endpoints.",
+      "tags": ["FastAPI", "Three.js", "GSAP", "HTML/CSS/JS"],
+      "color": "#ec4899",
+      "icon": "✨",
+      "status": "Live",
+      "github": "#"
+    },
+    {
+      "title": "Sentiment Analysis API",
+      "description": "Fine-tuned BERT model wrapped in a FastAPI microservice for real-time sentiment analysis. Includes batch processing, confidence scores, and a lightweight dashboard for monitoring.",
+      "tags": ["BERT", "HuggingFace", "FastAPI", "Fine-tuning"],
+      "color": "#06b6d4",
+      "icon": "💬",
+      "status": "Completed",
+      "github": "#"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2025",
+      "type": "edu",
+      "title": "B.E. Computer Engineering (AI & ML)",
+      "org": "Pune University",
+      "desc": "Final year. Specialization in AI/ML. Coursework: Deep Learning, NLP, Computer Vision, Distributed Systems."
+    },
+    {
+      "year": "2024",
+      "type": "project",
+      "title": "Started FastAPI × LLM Platform",
+      "org": "Personal R&D",
+      "desc": "Architected and began building a production FastAPI backend with Mistral LLM integration — laying the foundation for a scalable AI product."
+    },
+    {
+      "year": "2023",
+      "type": "project",
+      "title": "Built First End-to-End ML Pipeline",
+      "org": "Academic Project",
+      "desc": "Complete ML pipeline from data ingestion to model serving. Trained NLP models on custom datasets, deployed as REST APIs."
+    },
+    {
+      "year": "2022",
+      "type": "edu",
+      "title": "Discovered AI Engineering",
+      "org": "Self-Learning",
+      "desc": "Deep dive into PyTorch, transformers, and the Hugging Face ecosystem. Completed Andrew Ng's Deep Learning Specialization."
+    },
+    {
+      "year": "2021",
+      "type": "edu",
+      "title": "Started B.E. Computer Engineering",
+      "org": "Pune University",
+      "desc": "Began engineering studies with strong focus on programming fundamentals, data structures, and algorithms."
+    }
+  ]
+}
