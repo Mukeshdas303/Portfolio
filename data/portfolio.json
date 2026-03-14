@@ -2,68 +2,85 @@
   "about": {
     "name": "Mukesh Das",
     "title": "AI/ML Engineer",
-    "taglines": ["AI/ML Engineer", "LLM Builder", "FastAPI Developer", "Final Year CS Student"],
-    "bio": "Final year Computer Engineering student at Pune, Maharashtra, deeply passionate about building intelligent systems. Currently architecting a FastAPI-powered LLM backend using Mistral, while simultaneously building a custom LLM from scratch to understand the internals. My goal: leverage GPU-scale infrastructure to build production-grade, goal-oriented AI systems.",
+    "taglines": [
+      "AI/ML Engineer",
+      "LLM Builder",
+      "FastAPI Developer",
+      "Final Year CS Student"
+    ],
+    "bio": "AI/ML engineer focused on building intelligent systems powered by Large Language Models. I design and develop AI-driven applications using Python, PyTorch, and FastAPI, with a strong focus on automation, LLM reasoning pipelines, and scalable backend architectures. My work includes building autonomous AI agents, LLM-powered test case generation systems, and document intelligence platforms. I enjoy exploring how AI can automate complex workflows and create practical tools that solve real-world engineering problems.",
     "location": "Pune, Maharashtra, India",
-    "email": "mukeshkdas03@gamil.com",
+    "email": "mukeshkdas03@gmail.com",
     "github": "https://github.com/Mukeshdas303",
     "linkedin": "https://www.linkedin.com/in/mukeshkdas303/",
     "stats": [
-      {"label": "Years Coding", "value": "3+"},
-      {"label": "AI Projects", "value": "5+"},
-      {"label": "Technologies", "value": "20+"},
-      {"label": "Graduation", "value": "2026"}
+      { "label": "Years Coding", "value": "3+" },
+      { "label": "AI Projects", "value": "5+" },
+      { "label": "Technologies", "value": "20+" },
+      { "label": "Graduation", "value": "2026" }
     ]
   },
+
   "skills": {
     "ai_ml": [
-      {"name": "PyTorch / TensorFlow", "level": 85},
-      {"name": "LLM Fine-tuning", "level": 78},
-      {"name": "Transformer Architecture", "level": 80},
-      {"name": "NLP / Tokenization", "level": 82},
-      {"name": "Mistral / LLaMA", "level": 88}
+      { "name": "PyTorch / TensorFlow", "level": 85 },
+      { "name": "LLM Fine-tuning", "level": 78 },
+      { "name": "Transformer Architecture", "level": 80 },
+      { "name": "NLP / Tokenization", "level": 82 },
+      { "name": "Mistral / LLaMA", "level": 88 }
     ],
     "backend": [
-      {"name": "FastAPI / Python", "level": 92},
-      {"name": "REST API Design", "level": 88},
-      {"name": "SQLite / PostgreSQL", "level": 75},
-      {"name": "Docker", "level": 70},
-      {"name": "Pydantic / Uvicorn", "level": 85}
+      { "name": "FastAPI / Python", "level": 92 },
+      { "name": "REST API Design", "level": 88 },
+      { "name": "SQLite / PostgreSQL", "level": 75 },
+      { "name": "Docker", "level": 70 },
+      { "name": "Pydantic / Uvicorn", "level": 85 }
     ],
-    "tools": ["Python", "Git", "Linux", "Jupyter","FAISS", "NumPy", "Pandas", "Matplotlib", "Scikit-learn"]
+    "tools": [
+      "Python",
+      "Git",
+      "Linux",
+      "Jupyter",
+      "FAISS",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Scikit-learn"
+    ]
   },
+
   "projects": [
     {
-      "title": "FastAPI + Mistral LLM Backend",
-      "description": "Production-grade REST API backend integrating Mistral LLM with FastAPI. Features streaming responses, context management, and a modular router architecture. Foundation for a scalable AI product.",
-      "tags": ["FastAPI", "Mistral", "Python", "LLM", "REST API"],
+      "title": "Autonomous AI Agent for UI Test Automation",
+      "description": "Developed an autonomous AI agent capable of converting natural language testing instructions into executable UI automation workflows. The system uses a custom LLM reasoning pipeline to understand testing objectives, plan actions, and execute browser automation through Playwright.",
+      "tags": ["FastAPI", "Python", "Custom LLM", "Automation"],
       "color": "#00d4ff",
       "icon": "🤖",
-      "status": "In Progress",
+      "status": "Core Project",
       "github": "#"
     },
     {
       "title": "Custom LLM from Scratch",
-      "description": "Building a transformer-based language model from first principles using PyTorch — custom tokenizer, multi-head attention, positional encoding, and training pipeline. Pure learning project to deeply understand LLM internals.",
-      "tags": ["PyTorch", "Transformers", "NLP", "CUDA", "Python"],
+      "description": "Building a transformer-based language model from first principles using PyTorch including custom tokenizer, multi-head attention, positional encoding, and training pipeline to deeply understand LLM internals.",
+      "tags": ["PyTorch", "Transformers", "CUDA", "Python"],
       "color": "#8b5cf6",
       "icon": "🧠",
-      "status": "In Progress",
+      "status": "Learning",
       "github": "#"
     },
     {
-      "title": "Engineering Math AI Solver",
-      "description": "An AI-powered solver for Engineering Mathematics III problems (S.E. CS/IT/AI&ML curriculum). Uses symbolic computation and LLM explanation to walk through complex differential equations and transforms step by step.",
-      "tags": ["Python", "SymPy", "LLM", "Math", "Education"],
+      "title": "LLM-Powered Intelligent Test Case Generation System",
+      "description": "Built an AI-driven system that automatically generates comprehensive test cases from UI descriptions and product requirements. Uses prompt engineering pipelines to generate positive, negative, and edge-case scenarios for software testing.",
+      "tags": ["Python", "FastAPI", "LLM", "Prompt Engineering"],
       "color": "#10b981",
-      "icon": "📐",
+      "icon": "🧑‍💻",
       "status": "Completed",
       "github": "#"
     },
     {
-      "title": "RAG Pipeline System",
-      "description": "Retrieval-Augmented Generation system that ingests PDFs and engineering textbooks, chunks them semantically, embeds with sentence-transformers, stores in FAISS, and answers questions with Mistral.",
-      "tags": ["FAISS", "LangChain", "Mistral", "FAISS", "Embeddings"],
+      "title": "AI-Powered PDF Question Answering System",
+      "description": "Developed an AI system that allows users to upload PDF documents and ask questions about the content using natural language. The system extracts document text and uses LLM reasoning to provide contextual answers.",
+      "tags": ["Python", "FAISS", "LangChain", "Embeddings"],
       "color": "#f59e0b",
       "icon": "📚",
       "status": "Completed",
@@ -71,58 +88,66 @@
     },
     {
       "title": "AI Portfolio (This Site)",
-      "description": "Fully animated portfolio powered by FastAPI backend, Three.js particle system, GSAP scroll animations, and a custom UI. Dynamic data served from API endpoints.",
-      "tags": ["FastAPI", "Three.js", "GSAP", "HTML/CSS/JS"],
+      "description": "Fully animated developer portfolio powered by FastAPI backend, Three.js particle effects, GSAP scroll animations, and dynamic data served through API endpoints.",
+      "tags": ["FastAPI", "Three.js", "GSAP", "JavaScript"],
       "color": "#ec4899",
       "icon": "✨",
       "status": "Live",
       "github": "#"
     },
     {
-      "title": "Sentiment Analysis API",
-      "description": "Fine-tuned BERT model wrapped in a FastAPI microservice for real-time sentiment analysis. Includes batch processing, confidence scores, and a lightweight dashboard for monitoring.",
-      "tags": ["BERT", "HuggingFace", "FastAPI", "Fine-tuning"],
+      "title": "LLM Prompt Playground API",
+      "description": "Simple API for experimenting with LLM prompts and responses. Users can adjust parameters such as temperature and token limits while generating responses through a FastAPI backend.",
+      "tags": ["Python", "FastAPI", "LLM", "Prompt Engineering"],
       "color": "#06b6d4",
-      "icon": "💬",
+      "icon": "⚡",
       "status": "Completed",
       "github": "#"
     }
   ],
+
   "timeline": [
     {
       "year": "2025",
-      "type": "edu",
-      "title": "B.E. Computer Engineering (AI & ML)",
-      "org": "Pune University",
-      "desc": "Final year. Specialization in AI/ML. Coursework: Deep Learning, NLP, Computer Vision, Distributed Systems."
+      "type": "project",
+      "title": "Autonomous AI Agent for UI Test Automation",
+      "org": "Personal AI Research",
+      "desc": "Developed an autonomous AI agent that converts natural language testing instructions into executable UI automation workflows using a custom LLM reasoning pipeline and Playwright."
+    },
+    {
+      "year": "2025",
+      "type": "project",
+      "title": "LLM-Powered Intelligent Test Case Generation System",
+      "org": "AI Product Development",
+      "desc": "Built an AI-driven system that generates structured software test cases from UI descriptions and product requirements with exportable JSON and CSV reports."
     },
     {
       "year": "2024",
       "type": "project",
-      "title": "Started FastAPI × LLM Platform",
-      "org": "Personal R&D",
-      "desc": "Architected and began building a production FastAPI backend with Mistral LLM integration — laying the foundation for a scalable AI product."
+      "title": "AI-Powered PDF Question Answering System",
+      "org": "AI Document Intelligence",
+      "desc": "Developed a document intelligence system allowing users to upload PDFs and query their contents using natural language."
+    },
+    {
+      "year": "2024",
+      "type": "project",
+      "title": "FastAPI × LLM Backend Platform",
+      "org": "Personal AI R&D",
+      "desc": "Architected a scalable backend system using FastAPI to deploy LLM-powered applications with modular API architecture."
     },
     {
       "year": "2023",
-      "type": "project",
-      "title": "Built First End-to-End ML Pipeline",
-      "org": "Academic Project",
-      "desc": "Complete ML pipeline from data ingestion to model serving. Trained NLP models on custom datasets, deployed as REST APIs."
+      "type": "edu",
+      "title": "Started B.E. Computer Engineering (AI & ML)",
+      "org": "Savitribai Phule Pune University",
+      "desc": "Began undergraduate engineering studies focusing on programming fundamentals, data structures, and algorithms."
     },
     {
-      "year": "2022",
-      "type": "edu",
-      "title": "Discovered AI Engineering",
-      "org": "Self-Learning",
-      "desc": "Deep dive into PyTorch, transformers, and the Hugging Face ecosystem. Completed Andrew Ng's Deep Learning Specialization."
-    },
-    {
-      "year": "2021",
-      "type": "edu",
-      "title": "Started B.E. Computer Engineering",
-      "org": "Pune University",
-      "desc": "Began engineering studies with strong focus on programming fundamentals, data structures, and algorithms."
+      "year": "2023",
+      "type": "learning",
+      "title": "Started Learning AI & Deep Learning",
+      "org": "Self Learning",
+      "desc": "Started exploring machine learning, deep learning, and transformer architectures using PyTorch."
     }
   ]
 }

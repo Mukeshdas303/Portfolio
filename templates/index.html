@@ -461,6 +461,15 @@
       .projects-grid { grid-template-columns: 1fr; }
       .nav-links { display: none; }
     }
+    .about-avatar-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00f5c4;
+    position: relative;
+    z-index: 2;
+  }
   </style>
 </head>
 <body>
@@ -516,7 +525,7 @@
     <div>
       <div class="about-avatar-wrap" data-aos="zoom-in" data-aos-duration="800">
         <div class="about-avatar-bg"></div>
-        <div class="about-avatar">🧑‍💻</div>
+        <img src="/static/assets/mukesh.jpg" alt="Mukesh Photo" class="about-avatar-img">
       </div>
       <div class="about-stats" id="about-stats"></div>
     </div>
